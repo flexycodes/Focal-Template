@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@charset "utf-8";
+/*
+/*	Copyright (c) 2019 Flexycodes
+/*	Author: Flexycodes
+/*	This file is made for CURRENT TEMPLATE
+
+	01) FOCAL BASE
+	02) FOCAL HEADER
+	03) FOCAL HOBBIES
+	04) FOCAL ABOUT ME
+	05) FOCAL SKILLS
+    06) FOCAL RESUME
+    07) FOCAL EDUCATION
+    08) FOCAL TESTIMONIAL
+	09) FOCAL PORTFOLIO
+    10) FOCAL CONTACT
+    11) FOCAL FOOTER
+
+/*---------------------------------------------------*/
+/*	01) FOCAL BASE
+/*---------------------------------------------------*/
+
+html 
+{
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+	scroll-behavior: smooth
+}
+div{outline: 0 !important}
+body
+{
+    font: normal 400 14px/1.8 'Roboto', sans-serif;
+	word-wrap: break-word
+}
+#page{margin:0; padding:0}
+.container
+{
+	width: 1200px;
+	margin:0 auto;
+	padding: 0
+}
+.section-space 
+{
+    margin-top: 80px !important;
+    margin-bottom: 80px !important
+}
+.btn 
+{
+    color: #2ecc71;
+    font: italic 600 18px/24px 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #2ecc71;
+    padding: 15px 30px;
+    display: inline-block
+}
+.btn:hover {
+    background: #2ecc71;
+    color: #fff
+}
+p {
+    font: italic 400 18px/30px 'Roboto', sans-serif;
+    color: #919191;
+    margin: 0;
+    padding: 0
+}
+/*---------------------------------------------------*/
+/*	02) FOCAL HEADER
+/*---------------------------------------------------*/
+
+/* ---- Start Header ---- */
+.header
+{
+	margin: 0;
+	padding: 0
+}
+
+/* ---- 2-1 Slider ---- */
+.header--slider
+{
+	height: calc(100vh - 57px);
+	height: -o-calc(10vh - 57px); /* opera */
+	height: -webkit-calc(100vh - 57px); /* google, safari */
+	height: -moz-calc(100vh - 57px); /* firefox */
+	background-image: url('../images/focal-top.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+.header--slider-intro 
+{
+    padding-top: 40vh;
+    text-align: center;
+    color: #fff
+}
+.header--title
+{
+    text-transform: uppercase;
+    margin: 0 auto;
+    font: normal 600 60px/80px 'Roboto', sans-serif;
+    color: #fff;
+    width: 760px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px
+}
+.header--btn
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #fff;
+    padding: 15px 30px
+}
+.header--btn:hover 
+{
+    background: #fff;
+    color: #333;
+}
+/* ---- 2-2 NAVBAR ---- */
+.header .navbar
+{
+	background: #252e31;
+	overflow: hidden
+}
+.navbar--logo
+{
+    color: #fff;
+    float: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 16px
+}
+.navbar--sub-logo {color: #2ecc71}
+.navbar--logo span:first-child {
+    background: #4b5456;
+    padding: 0px 13px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 15px
+}
+.navbar--menu {float: right}
+.navbar--menu ul li 
+{
+    list-style-type: none;
+    display: inline-block;
+	margin-left: 20px
+}
+.navbar--menu ul li a 
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 30px
+}
+.navbar--menu ul li a:hover, .heanavbar--menu ul li a:active {color: #2ecc71}
+/* ---- End Header ---- */
+
+/*---------------------------------------------------*/
+/*	03) FOCAL HOBBIES
+/*---------------------------------------------------*/
+.hobbies
+{
+	margin:0;
+	padding: 0;
+	overflow: hidden
+}
+.hobbies--hobbie 
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 31.3333333333%;
+    margin-right: 3%
+}
+.hobbies--hobbie:last-child {margin-right:0}
+.hobbies--hobbie h3 
+{
+    color: #566366;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 40px
+}
+/*---------------------------------------------------*/
+/*	04) FOCAL ABOUT ME
+/*---------------------------------------------------*/
+.about-me
+{
+	margin:0;
+	padding: 0;
+	background: #f2f2f1;
+	overflow: hidden
+}
+.about--img 
+{
+    float: left;
+    width: 40%;
+    background-image: url(../images/about-me.jpg);
+    height: 100%;
+    min-height: 834px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.about--img img 
+{
+    width: 100%
+}
+.about--info
+{
+	float: left;
+	width: 60%
+}
+.about--contanier
+{
+    width: 63%;
+    margin-left: 100px;
+    padding-top: 100px
+}
+.about--title
+{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #566366;
+	margin-bottom: 40px
+}
+.about--desc-me p {margin-bottom: 20px}
+.about-me .skills
+{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-top: 60px
+}
+.about-me .skills--skill
+{
+	float: left;
+    width: 48%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-right: 2%
+}
+.about-me .skills--skill > .fas
+{
+	font-size: 40px;
+    float: left;
+    color: #2ecc71;
+    width: 12%;
+    margin-right: 8%
+}
+.about-me .skills--skill > div 
+{
+    float: right;
+    width: 80%
+}
+.about-me .skills--skill .skills--title
+{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #566366;
+    text-transform: uppercase;
+    margin: 2px 0 0
+}
+.about-me .skills--desc {margin-top: 18px}
+/*---------------------------------------------------*/
+/*	05) FOCAL SKILLS
+/*---------------------------------------------------*/
+.skills 
+{
+    overflow: hidden;
+    margin-bottom: 80px
+}
+.skills--info 
+{
+    float: left;
+    width: 48%;
+    margin-right: 6%
+}
+.skills--title
+{
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #566366;
+	margin-bottom: 40px;
+	text-transform: uppercase
+}
+.skills--info p {margin-bottom: 22px}
+.skills--btn
+{
+    margin-top: 20px;
+    text-align: center
+}
+.skills--exp 
+{
+    float: right;
+    width: 44%;
+    margin-top: 20px
+}
+.skills--skill {margin-bottom: 40px}
+.skills--skill:last-of-type {margin-bottom: 30px}
+.skills--skillbar 
+{
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #f2f2f1;
+    height: 30px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+.skills--skillbar-bar 
+{
+    background: #2ecc71;
+}
+.skills--skillbar-bar 
+{
+    height: 30px;
+    width: 0
+}
+.skills--skill-bar-percent 
+{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.skills--exp .skills--title
+{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #566366
+}
+/*---------------------------------------------------*/
+/*	06) FOCAL RESUME
+/*---------------------------------------------------*/
+.resume
+{
+    position: relative;
+    border: 4px solid #F2F2F1;
+    background: #f2f2f1;
+    text-align: center
+}
+.resume:after, .resume:before 
+{
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+.resume:after 
+{
+    border-color: rgba(242, 242, 241, 0);
+    border-top-color: #F2F2F1;
+    border-width: 30px;
+    margin-left: -30px
+}
+.resume:before 
+{
+    border-color: rgba(242, 242, 241, 0);
+    border-top-color: #F2F2F1;
+    border-width: 36px;
+    margin-left: -36px
+}
+.resume .container
+{
+    padding: 100px 0
+}
+.resume--title
+{
+    color: #566366;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0
+}
+.resume--desc {margin-bottom: 40px}
+/*---------------------------------------------------*/
+/*  07) FOCAL EDUCATION
+/*---------------------------------------------------*/
+.educations 
+{
+    overflow: hidden;
+    margin: 80px 0
+}
+.educations--education-box 
+{
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+    padding-bottom: 75px;
+    margin-bottom: 75px
+}
+.educations--education-box:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+.educations--education-info 
+{
+    float: left;
+    width: 48%;
+    margin-right: 6%;
+}
+.educations--title
+{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #566366;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+.educations--desc {margin-bottom: 22px}
+.educations--education-exp 
+{
+    float: right;
+    width: 44%;
+    margin-top: 20px;
+}
+.educations--education
+{
+    margin-top: 50px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+    margin-bottom: 25px
+}
+.educations--title
+{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #566366;
+    margin-bottom: 10px
+}
+.educations--exp
+{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #919191;
+    display: block;
+    margin-bottom: 12px
+}
+.educations--exp strong {font-weight: 600}
+.educations--info
+{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    background: #2ecc71;
+    padding: 7px 10px
+}
+/*---------------------------------------------------*/
+/*  08) FOCAL TESTIMONIAL
+/*---------------------------------------------------*/
+.testimonials
+{
+    position: relative;
+    background: #f2f2f1;
+    text-align: center
+}
+.testimonials .container
+{
+    padding: 100px 0;
+    width: 1080px;
+}
+.testimonials--q
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font: italic 400 24px/36px 'Roboto', sans-serif;
+    margin-bottom: 35px;
+    color: #919191
+}
+.testimonials--title
+{
+    color: #566366;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0
+}
+.testimonials .owl-carousel .owl-dots .owl-dot.active span,
+.testimonials .owl-carousel .owl-dots .owl-dot:hover span 
+{
+    background: #2ecc71;
+    /*transform: translate3d(0px, -50%, 0px) scale(0.7);*/
+    border-radius: 50%
+}
+.testimonials .owl-carousel .owl-dots
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px
+}
+.testimonials .owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    outline: 0
+}
+.testimonials .owl-carousel .owl-dots .owl-dot span 
+{
+    background: #fff;
+    border: 2px solid #2ecc71;
+    display: inline-block;
+    height: 7px;
+    margin: 0 5px 5px;
+    /*transform: translate3d(0px, -50%, 0px) scale(0.3);*/
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 7px;
+    border-radius: 50%
+}
+/*---------------------------------------------------*/
+/*  09) FOCAL PORTFOLIO
+/*---------------------------------------------------*/
+.portfolio
+{
+    position: relative;
+    text-align: center
+}
+.portfolio .container
+{
+    overflow: hidden;
+    padding: 55px 0 0 40px
+}
+.portfolio > .container {padding: 100px 0}
+.portfolio--title
+{
+    color: #566366;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0
+}
+.portfolio--desc {margin-bottom: 40px}
+
+.portfolios--items .portfolios--item 
+{
+    width: 28%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+.portfolios--items .item.last-element
+{
+  margin-bottom: 0
+}
+.portfolios--items .portfolios--item img {width: 100%}
+.portfolios--items .portfolios--item.portfolios--filters-controls 
+{
+    text-align: left;
+    background: #252e30;
+    padding: 30px;
+    width: 23%;
+    min-height: 275px;
+    max-height: 275px
+}
+.portfolios--items .portfolios--item h3 
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px
+}
+.portfolios--items .portfolios--item ul 
+{
+    margin: 0;
+    padding: 0;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    list-style: none;
+    list-style-position: inside;
+    color: #ffffff;
+    margin-bottom: 0
+}
+.portfolios--items .portfolios--item ul li 
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #919191;
+    cursor: pointer
+}
+.portfolios--items .portfolios--item ul li.mixitup-control-active,
+.portfolios--items .portfolios--item ul li:hover
+{
+    color: #fff
+}
+.portfolios--items .portfolios--item .mask 
+{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.portfolios--items .portfolios--item .mask 
+{
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   background-color: rgba(46, 204, 113, 0.75);
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+    width: 100%;
+    height: 100%
+}
+.portfolios--items .portfolios--item:hover img 
+{
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1)
+}
+.portfolios--items .portfolios--item a.info 
+{
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out
+}
+
+.portfolios--items .portfolios--item:hover .mask 
+{
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1
+}
+.portfolios--items .portfolios--item:hover a.info 
+{
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px)
+}
+.portfolios--items .portfolios--item:hover a.info 
+{
+   -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+   transition-delay: 0.2s
+}
+.portfolios--items .portfolios--item:hover a.info 
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 36%;
+    font-size: 50px
+}
+/*---------------------------------------------------*/
+/*  10) FOCAL CONTACT
+/*---------------------------------------------------*/
+.contact 
+{
+    overflow: hidden;
+    margin: 0;
+    background: #252e30;
+    padding: 100px 0
+}
+.contact--info 
+{
+    float: left;
+    width: 47%;
+    margin-right: 6%
+}
+.contact--title
+{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase
+}
+.contact--info p {margin-bottom: 22px;font-style: normal}
+.contact--info ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 35px 0 0;
+    color: #fff
+}
+.contact--info ul li p
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+    color: #919191;
+    font-style: normal
+}
+.contact--info ul li
+{
+    font: normal 400 18px/30px 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0
+}
+.contact--info ul li span
+{
+    margin-right: 45px
+}
+.contact--btn
+{
+    margin-top: 20px;
+    text-align: center
+}
+.contact--exp 
+{
+    float: right;
+    width: 45%;
+    margin-top: 20px
+}
+.contact--exp  form {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.contact--exp  form .form-group {
+    display: block;
+    margin-bottom: 30px
+}
+.contact--exp  form .form-group label,
+.contact--exp  form .form-group label span {
+    display: inline-block;
+    font: normal 400 18px/30px 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 6px
+}
+.contact--exp  form .form-group label span {
+    color: #919191;
+    margin-left: 5px
+}
+.contact--exp form .form-group input, 
+.contact--exp form .form-group textarea 
+{
+    display: block;
+    width: 100%;
+    background: #4b5456;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    color: #fff
+}
+.contact--exp form .form-group textarea {padding: 20px}
+.contact--exp  form .form-group input
+{
+    display: block;
+    width: 100%;
+    height: 55px
+}
+.contact--exp form .btn-submit
+{
+    background: #191f21;
+    font-style: normal;
+    border: 2px solid #191f21;
+    color: #fff;
+    outline: 0;
+    cursor: pointer
+}
+.contact--exp form .btn-submit:hover
+{
+    background: #2ecc71;
+    border: 2px solid #2ecc71;
+    color: #fff
+}
+/*---------------------------------------------------*/
+/*  11) FOCAL FOOTER
+/*---------------------------------------------------*/
+.footer
+{
+    background: #191f21;
+    text-align: center;
+    padding: 38px 0
+}
+.footer p
+{
+    font: normal 500 14px/30px 'Roboto', sans-serif;
+    color: #4b5456;
+    margin: 0 0 15px;
+    padding: 0;
+    text-transform: uppercase
+}
+.footer ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.footer ul li
+{
+    display: inline-block;
+    background: #4b5456;
+    margin-right: 8px;
+    padding: 3px 8px;
+    border-radius: 50%;
+    text-align: center
+}
+.footer ul li.facebook
+{
+    padding: 3px 11px
+}
+.footer ul li.googleplus 
+{
+    padding: 3px 7px;
+}
+.footer ul li a
+{
+    color: #191f21
+}
+.footer ul li a:hover
+{
+    color: #fff
+}
