@@ -7,3 +7,7 @@ Focal Template to apply my experience.
 - **CSS**
 - **Some code of JavaScript**
 
+## Next Steps :
+
+- **Responsive without freamwork**
+
