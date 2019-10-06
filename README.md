@@ -9,5 +9,5 @@ Focal Template to apply my experience.
 
 ## Next Steps :
 
-- **Responsive without freamwork**
+- **Responsive without freamwork in branch responsive**
 
