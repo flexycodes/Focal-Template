@@ -19,3 +19,7 @@ Focal Template to apply my experience.
 
 - **I'm fixed a bug in html file**
 
+## Uness fixed bug css in responsive branch :
+
+- **I'm fixed a bug in css file**
+
