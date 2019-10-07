@@ -17,5 +17,5 @@ Focal Template to apply my experience.
 
 ## Uness fixed bug :
 
-- **I'm fixed a bug in file html**
+- **I'm fixed a bug in html file**
 
